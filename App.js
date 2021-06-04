@@ -1,21 +1,129 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import React, { Component } from "react";
+import {
+  Text,
+  View,
+  ImageBackground,
+  StatusBar,
+  ScrollView,
+} from "react-native";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { Feather } from "@expo/vector-icons";
+export class App extends Component {
+  render() {
+    return (
+      <View
+        style={{
+          flex: 1,
+        }}
+      >
+        <StatusBar hidden />
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <View
+            style={{
+              overflow: "hidden",
+              borderBottomRightRadius: 50,
+            }}
+          >
+            <ImageBackground
+              style={{
+                width: "100%",
+                height: 250,
+              }}
+              source={{
+                uri:
+                  "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+              }}
+            >
+              <View
+                style={{
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  paddingHorizontal: 20,
+                  marginTop: 20,
+                }}
+              >
+                <View>
+                  <MaterialCommunityIcons name="text" size={24} color="white" />
+                </View>
+                <View
+                  style={{
+                    flexDirection: "row",
+                  }}
+                >
+                  <View
+                    style={{
+                      marginRight: 20,
+                    }}
+                  >
+                    <Feather name="bell" size={22} color="white" />
+                  </View>
+                  <View>
+                    <Feather name="search" size={22} color="white" />
+                  </View>
+                </View>
+              </View>
+              <View
+                style={{
+                  paddingHorizontal: 20,
+                  flex: 1,
+                  marginTop: -15,
+                  justifyContent: "center",
+                }}
+              >
+                <Text
+                  style={{
+                    fontSize: 18,
+                    color: "white",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Hello Haksa,
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "white",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Hope you have a great day!
+                </Text>
+                <View
+                  style={{
+                    flexDirection: "row",
+                  }}
+                >
+                  <View
+                    style={{
+                      paddingHorizontal: 10,
+                      paddingVertical: 5,
+                      borderRadius: 10,
+                      marginTop: 5,
+                      backgroundColor: "grey",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        fontSize: 10,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      CASUAL MEMBER
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </ImageBackground>
+          </View>
+        {/* end home banner */}
+          
+          
+        </ScrollView>
+      </View>
+    );
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
