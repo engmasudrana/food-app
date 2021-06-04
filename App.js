@@ -358,6 +358,288 @@ export class App extends Component {
             </View>
           </ScrollView>
 
+        
+          {/* Newest Tricks! */}
+
+          <View style={{ marginTop: 20, paddingHorizontal: 20 }}>
+            <Text
+              style={{
+                fontSize: 16,
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              NEWEST TRICKS!,
+            </Text>
+            <Text
+              style={{
+                fontSize: 12,
+                color: "grey",
+                fontWeight: "bold",
+              }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod
+            </Text>
+          </View>
+          <ScrollView
+            horizontal={true}
+            style={{
+              paddingLeft: 20,
+              paddingRight: 10,
+              marginTop: 10,
+            }}
+            showsHorizontalScrollIndicator={false}
+          >
+            <View
+              style={{
+                flexDirection: "row",
+              }}
+            >
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri:
+                      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Lorem Ipsum
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri:
+                      "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Lorem Ipsum
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri:
+                      "https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Lorem Ipsum
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri:
+                      "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Lorem Ipsum
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View style={{ width: 30 }}></View>
+            </View>
+          </ScrollView>
+          <View
+            style={{
+              height: 30,
+            }}
+          ></View>
 
 
           
